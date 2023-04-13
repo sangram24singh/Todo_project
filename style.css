@@ -1,0 +1,180 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+#task{
+    font-weight: 600;
+    font-style: bold;
+    margin-right: 20px;
+}
+#btn{
+    background-color: rgb(15, 157, 245);
+    font-size: 18px;
+    border: 3px solid rgb(15, 160, 247);
+    border-radius: 50%;
+    color: black;
+    font-style: bold;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.cover{
+    height: 1100px;
+    background-color: black;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+}
+.btntext{
+    font-size: 20px;
+}
+.text1{
+    color: white;
+    margin-left: 15%;
+    font-size: 30px;
+}
+.popup{
+    background-color: white;
+    border: 5px solid  rgb(225, 96, 96);
+    width: 390px;
+    height: 210px;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    border-radius: 10px;
+    display: none;
+}
+.popup1{
+    background-color: white;
+    border: 5px solid  rgb(225, 96, 96);
+    width: 390px;
+    height: 210px;
+    border-radius: 10px;
+    display: none;
+    position:absolute;
+    top:150px;
+    left:550px;
+    cursor: pointer;
+}
+#newtask{
+    color: rgb(225, 96, 96);
+    height: 75px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inputcard{
+    height: 30px;
+    width: 300px;
+    border:2px solid rgb(225, 96, 96);
+    border-radius: 8px;
+    text-align: center;
+}
+#inputcard1{
+    height: 30px;
+    width: 300px;
+    border:2px solid rgb(225, 96, 96);
+    border-radius: 8px;
+    text-align: center;
+}
+.btn1{
+    background-color: rgb(225, 96, 96);;
+    border-radius: 10px;
+    border: 2px solid rgb(225, 96, 96);;
+    width: 75px;
+    height: 34px;
+    font-size: 18px;
+    margin: 15px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: white;
+}
+.mybtn{
+    display: flex;
+    height: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#cardcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mylist{
+    background-color: white;
+    border: 5px solid  rgb(225, 96, 96);
+    width:250px;
+    height: 370px;
+    margin: 45px;
+    border-radius: 15px;
+    color:  rgb(225, 96, 96);;
+} 
+#flex{
+    width: 100%;
+    height: auto;
+    display: flex;
+ 
+}
+#pic1{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 43%;
+    left: 60%;   
+    cursor: pointer;
+}
+#pic2{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 43%;
+    left: 65%;
+    cursor: pointer;
+}
+#listtext{
+    text-align: center;
+    cursor: pointer;
+}
+#maincontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.checked{
+    text-decoration: line-through;
+    color: rgb(231, 13, 93);
+    list-style-type: none;
+    cursor: pointer
+}
+.arr{
+    border: none;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.white1{
+    color: whitesmoke;
+}
+.backpage{
+    display: none;
+}
+#mycards{
+    color: red;
+    text-align: center;
+}

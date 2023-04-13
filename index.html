@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo project Javascript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="cover">
+    <div class="main">
+        <div class="box b1"><span id="task">Tasks</span>List</div>
+        <div onclick="firstpage()" class="backpage"><button class="arr"> &lt;  </button><span class="white1">Back</span></div>
+        <div class="box"><span id="btn" onclick="callplus()">+</span><span class="btntext">Add items</span></div>
+    </div>
+    <div class="text1">No items in To Do list</div>
+    <div id="myflex">
+    <div class="popup" id="mypop"><div id="newtask">Add New Task</div><div id="cardcontent"><input type="text" name="" id="inputcard" placeholder="Add New Task"></div><div class="mybtn"><button class="btn1" onclick="calladd()">Add</button><button class="btn1" onclick="closebtn()">Close</button></div></div></div>
+    <div id="mycards"></div>
+    <div id="maincontainer">
+    </div>
+    <div id="myflex">
+        <div class="popup1" id="mypop1"><div id="newtask">Add Item to Card</div><div id="cardcontent"><input type="text" name="" id="inputcard1" placeholder="Add New Task"></div><div class="mybtn"><button class="btn1" onclick="addcontentcard()">Add</button><button class="btn1" onclick="removecontentcard()">Close</button></div></div></div>
+    <script src="./java.js"></script>
+ 
+    
+</body>
+</html>
